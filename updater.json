@@ -7,7 +7,19 @@
  },
  {
   "command":"/bin/bash",
-  "args":["-c", "echo Hello from step 1!"]
+  "args":["-c", "echo {{0}} from step 1!"]
+ },
+ {
+  "command":"/bin/bash",
+  "args":["-c", "echo {{1}} from step 2!"]
+ },
+ {
+  "command":"/bin/bash",
+  "args":["-c", "echo {{2}} from step 3!"]
+ },
+ {
+  "command":"/bin/bash",
+  "args":["-c", "echo {{3}} from step 4!"]
  }
 ]
 } 
